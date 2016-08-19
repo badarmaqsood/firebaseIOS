@@ -8,7 +8,12 @@
 
 #import <UIKit/UIKit.h>
 #import <SceneKit/SceneKit.h>
+@import Firebase;
+
 
 @interface GameViewController : UIViewController
+
+@property (strong, nonatomic) FIRDatabase* ptrDatabase;
+
 
 @end

@@ -6,6 +6,8 @@ target 'firebaseIOS' do
   # use_frameworks!
 
 pod 'Firebase', '>= 2.5.1'
+pod ‘Firebase/Core’
+pod ‘Firebase/Database’
 
   # Pods for firebaseIOS
 

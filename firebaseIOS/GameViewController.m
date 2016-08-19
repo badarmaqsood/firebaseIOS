@@ -66,6 +66,12 @@
     [gestureRecognizers addObject:tapGesture];
     [gestureRecognizers addObjectsFromArray:scnView.gestureRecognizers];
     scnView.gestureRecognizers = gestureRecognizers;
+    
+    
+    self.ptrDatabase = [[FIRDatabase database] reference];
+
+ 
+    
 }
 
 - (void) handleTap:(UIGestureRecognizer*)gestureRecognize
